@@ -46,7 +46,6 @@ class PcaDataLoader(object):
             _data = pickle.load(confile)
         return _data
 
-#TODO do przepisania po chuj inicjalizuje methodname w __init__
 
 class PyClustTrainer(PcaDataLoader):
     def __init__(self, methodname: str):
